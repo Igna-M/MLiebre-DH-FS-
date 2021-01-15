@@ -7,7 +7,6 @@ app.listen(process.env.PORT || 3130, ()=>{
     console.log('Servidor funcionando en http://localhost:3130/');
 });
 
-
 app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/index.html');
 });
